@@ -123,30 +123,5 @@ def descent_parser():
 
 
 
-
-
-
-
-
-    # print(e.parse('2 ,[3] = 4'))
-    # Traceback (most recent call last):
-    #    File "<stdin>", line 1, in <module>
-    #    File "exprparse.py", line 40, in parse
-    #    return self.expr()
-    #    File "exprparse.py", line 67, in expr
-    #    right = self.term()
-    #    File "exprparse.py", line 77, in term
-    #    termval = self.factor()
-    #    File "exprparse.py", line 93, in factor
-    #    exprval = self.expr()
-    #    File "exprparse.py", line 67, in expr
-    #    right = self.term()
-    #    File "exprparse.py", line 77, in term
-    #    termval = self.factor()
-    #    File "exprparse.py", line 97, in factor
-    #    raise SyntaxError("Expected NUMBER or LPAREN")
-    #    SyntaxError: Expected NUMBER or LPAREN
-
-
 if __name__ == '__main__':
     descent_parser()
