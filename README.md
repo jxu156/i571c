@@ -1,2 +1,4 @@
 # i571c
-It can recognize all the error and the conbiantions of {'{','}',',',INT}
+jxu156@binghamton.edu
+Junjie Xu
+
